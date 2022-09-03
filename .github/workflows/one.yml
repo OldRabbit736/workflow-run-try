@@ -4,4 +4,4 @@ jobs:
   one:
     runs-on: ubuntu-latest
     steps:
-      - run: echo Hi!!
+      - run: echo ${{ github.ref }} ${{ github.sha }}
