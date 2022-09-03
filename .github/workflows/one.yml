@@ -4,4 +4,4 @@ jobs:
   one:
     runs-on: ubuntu-latest
     steps:
-      - run: echo env
+      - run: echo $env
